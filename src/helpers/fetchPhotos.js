@@ -14,12 +14,14 @@ export const getPhotos = async (value, page) => {
       );
 
       const data = await resp.json();
-
+      console.log({ dataResults: data.results, totalPhotos: data.total });
       return { dataResults: data.results, totalPhotos: data.total };
     }
 
     throw new Error("Campo vacio");
   } catch (error) {
     console.warn(error);
+
+    return { dataResults: [], totalPhotos: 0 };
   }
 };
