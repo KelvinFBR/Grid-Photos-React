@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import PhotosGrid from "./components/PhotosGrid";
 import "./styles.css";
@@ -11,10 +12,11 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <Header onNewValueSearch={onNewValueSearch} />
       <PhotosGrid searchValue={searchValue} />
-    </div>
+      <Footer />
+    </>
   );
 }
 

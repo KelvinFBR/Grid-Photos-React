@@ -40,12 +40,12 @@ const PhotosGrid = ({ searchValue }) => {
       ) : null}
 
       {/* see more images */}
-      <div className="footer">
+      <div className="pagination-container">
         {photos.length > 0 && photos.length < totalPhotos ? (
           <motion.a
             transition={{ duration: 0.15 }}
             whileHover={{ scale: 1.04 }}
-            className="See-more"
+            className="btn-See-more"
             onClick={morePhotos}
           >
             See more
