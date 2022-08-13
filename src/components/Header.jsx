@@ -9,7 +9,7 @@ const Header = ({ onNewValueSearch }) => {
     <header className="header__container">
       <Formik initialValues={{ search: "" }} onSubmit={getDataPhotos}>
         <Form autoComplete="off">
-          <Field name="search" placeholder="Busca imagenes" />
+          <Field name="search" placeholder="Search images" />
         </Form>
       </Formik>
     </header>
