@@ -1,4 +1,4 @@
-# React + Vite: GifExpertApp
+# React + Vite: GridPhotos
 
 ![](https://i.imgur.com/OO4cdR8.png)
 
