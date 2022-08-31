@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <footer className="footer">
       <p className="footer__owner">
@@ -29,5 +29,3 @@ const Footer = () => {
     </footer>
   );
 };
-
-export default Footer;

@@ -1,11 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import ArrowTop from "./components/ArrowTop";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import PhotosGrid from "./components/PhotosGrid";
-import useActiveArrowTop from "./hooks/useActiveArrowTop";
 import "./styles.css";
+import useActiveArrowTop from "./hooks/useActiveArrowTop";
+
+import { Header, PhotosGrid, ArrowTop, Footer } from "./components";
 
 function App() {
   const [searchValue, setSearchValue] = useState("pc");

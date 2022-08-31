@@ -1,7 +1,7 @@
 import { useFetchPhotos } from "../hooks/useFetchPhotos";
 import { motion } from "framer-motion";
 
-const PhotosGrid = ({ searchValue }) => {
+export const PhotosGrid = ({ searchValue }) => {
   const { photos, page, setpages, totalPhotos } = useFetchPhotos(searchValue);
 
   const open = (url) => {
@@ -56,5 +56,3 @@ const PhotosGrid = ({ searchValue }) => {
     </article>
   );
 };
-
-export default PhotosGrid;

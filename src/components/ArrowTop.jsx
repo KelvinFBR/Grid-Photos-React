@@ -1,7 +1,7 @@
 import { FaArrowUp } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-const ArrowTop = () => {
+export const ArrowTop = () => {
   return (
     <>
       <motion.div
@@ -18,5 +18,3 @@ const ArrowTop = () => {
     </>
   );
 };
-
-export default ArrowTop;

@@ -1,6 +1,6 @@
 import { Formik, Form, Field } from "formik";
 
-const Header = ({ onNewValueSearch }) => {
+export const Header = ({ onNewValueSearch }) => {
   const getDataPhotos = ({ search }) => {
     onNewValueSearch(search);
   };
@@ -15,5 +15,3 @@ const Header = ({ onNewValueSearch }) => {
     </header>
   );
 };
-
-export default Header;
