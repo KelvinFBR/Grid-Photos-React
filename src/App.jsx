@@ -15,6 +15,8 @@ function App() {
 
   return (
     <>
+      <h1 className="title">Grid Photos</h1>
+
       <Header onNewValueSearch={onNewValueSearch} />
       <PhotosGrid searchValue={searchValue} />
       <Footer />

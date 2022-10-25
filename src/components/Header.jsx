@@ -2,6 +2,9 @@ import { Formik, Form, Field } from "formik";
 
 export const Header = ({ onNewValueSearch }) => {
   const getDataPhotos = ({ search }) => {
+    // go top page
+    window.scrollTo(0, 0);
+
     onNewValueSearch(search);
   };
 
